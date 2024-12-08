@@ -5,40 +5,39 @@
         <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="form" action="https://api.web3forms.com/submit" method="POST">
-      <input type="hidden" name="access_key" value="55fc8e4a-e793-4461-a0b4-3a96bf979212">
+<div class="form">
     <h1 id="title">FTC Into the Deep Scout Sheet</h1>
 <p id="description">Please answer the following to the best of your ability</p>
 <hr>
-<form id="survey-form">
+<form name="contact_form" method="post"
+action="https://formsubmit.co/pintrestshane@gmail.com">
    <h2 for="name">Team Name:</h2>
-    <input placeholder="Enter Team Name" id="name" required rows="2" cols="60"></textarea>
-   <h2>Team Email:</h2>
-   <h4>(If Applicable)</h4>
-   <input placeholder="Enter team Email" rows:"2" cols="60" type="email" id="email">
-   <h2>Team Number:</h2>
-   <input placeholder="Enter Team Number"rows="2" cols="60" id="number" type="number" maxlength="7" required>
-<h2>Auto</h2>
-<select>
+    <input placeholder="Enter Team Name" name="name" required rows="2" cols="60">
+   <h2 for="email">Team Email:</h2>
+   <h4 for="email">(If Applicable)</h4>
+   <input placeholder="Enter team Email" rows="2" cols="60" type="email" name="email">
+   <h2 for="number">Team Number:</h2>
+   <input placeholder="Enter Team Number"rows="2" cols="60" name="number" type="number" maxlength="7" required>
+<h2 for="auto">Auto</h2>
+<select name="auto">
     <option>(Select One)</option>
     <option>Sample Auto</option>
     <option>Specimen Auto</option>
     <option>Only Park</option>
         <option>No Auto</option>
         </select>
-        <checkbox>
-            <h2>Tele Op</h2>
-            <label><input type="checkbox" id="tele-op">Net Sample</label>
-            <label><input type="checkbox">Low Bucket Sample</label>
-            <label><input type="checkbox">High Bucket Sample</label>
-            <label><input type="checkbox">Low Specimen</label>
-            <label><input type="checkbox">High Specimen</label>
-<h2>End Game</h2>
-<label><input id="end-game" type="checkbox">N/A</label>
-<label><input id="end-game" type="checkbox">Park</label>
-<label><input id="end-game" type="checkbox">Lvl 1 Ascent</label>
-<label><input id="end-game" type="checkbox">Lvl 2 Ascent</label>
-<label><input id="end-game" type="checkbox">Lvl 3 Ascent</label>
+            <h2 for="tele-op">Tele Op</h2>
+            <label><input type="checkbox" name="tele-op">Net Sample</label>
+            <label><input type="checkbox" name="tele-op">Low Bucket Sample</label>
+            <label><input type="checkbox" name="tele-op">High Bucket Sample</label>
+            <label><input type="checkbox" name="tele-op">Low Specimen</label>
+            <label><input type="checkbox" name="tele-op">High Specimen</label>
+<h2 for="end-game">End Game</h2>
+<label><input name="end-game" type="checkbox">N/A</label>
+<label><input name="end-game" type="checkbox">Park</label>
+<label><input name="end-game" type="checkbox">Lvl 1 Ascent</label>
+<label><input name="end-game" type="checkbox">Lvl 2 Ascent</label>
+<label><input name="end-game" type="checkbox">Lvl 3 Ascent</label>
 <input type="submit" value="Submit">
     <div>
-        </body
+    </body>
