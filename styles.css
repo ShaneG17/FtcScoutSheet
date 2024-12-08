@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://www.hallmarknameplate.com/wp-content/uploads/2016/07/circuit-board-1.jpeg);
+    padding: 20px
+  }
+  
+  
+  .form{
+    background-color: rgba(14,17,50, 0.9);
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    max-width: 600px
+  }
+  h1,p{
+    text-align: center;
+    color: white
+  }
+  p{
+    color: white;
+    margin-bottom: 40px
+  }
+  label {
+    margin: 0.5rem 0;
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+  
+  }
+  h2,h3,h5{
+    margin: 0.6rem 0;
+    color: rgb(220,255,255);
+    margin-top: 30px
+  }
+  input1{
+    width: 200px
+  }
+  h4{
+    margin: 0.6rem 0;
+    color: rgb(255,255,255);
+  
+  }
+  
