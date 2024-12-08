@@ -39,4 +39,7 @@ body{
     color: rgb(255,255,255);
   
   }
+textarea{
+    margin-bottom: 25px;
+}
   
